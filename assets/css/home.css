@@ -1,0 +1,16 @@
+.bgc-image-home1{
+        background-image: url(../Illustration/img1.png);
+        background-size: cover;
+        background-position: 100% 15%;
+}
+
+@media screen and (max-width:768px) {
+        .bgc-image-home2{
+                background-image: url(../Illustration/img1.png);
+                background-size: cover;
+        }
+        .bgc-image-home3{
+                background-image: url(../Illustration/img1.png);
+                background-size: cover;
+        }
+}

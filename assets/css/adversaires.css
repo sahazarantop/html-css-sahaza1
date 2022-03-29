@@ -1,0 +1,9 @@
+.bgc-image-home1{
+        background-image: url(../Illustration/img1.png);
+        background-size: cover;
+        background-position: 100% 15%;
+}
+
+.bord-bottom-specify{
+        border-radius: 0 0 2em 2em;
+}

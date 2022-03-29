@@ -1,0 +1,144 @@
+
+/* variable couleur */
+:root{
+        --rouge : #b11313;
+        --jaune : #f1c530;
+        --bleu : #114c92;
+        --noir : #000000;
+        --blanc : #ffffff;
+}
+/* mise en page de tous les elements */
+        *{
+                margin: 0;
+                padding: 0;
+        }
+
+/* couleur  */
+
+        /* contenu couleur  */
+                .cont-rouge{
+                        color: var(--rouge);
+                }
+                .cont-jaune{
+                        color: var(--jaune);
+                }
+                
+                .cont-bleu{
+                        color: var(--bleu);
+                }
+                .cont-noir{
+                        color: var(--noir);
+                }
+
+                .cont-blanc{
+                        color: var(--blanc);
+                }    
+
+
+        /* couleur du fond  */
+                .bcg-rouge{
+                        background-color: var(--rouge);
+                }
+                .bcg-jaune{
+                        background-color: var(--jaune);
+                }
+
+                .bcg-bleu{
+                        background-color: var(--bleu);
+                }
+                .bcg-noir{
+                        background-color: var(--noir);
+                }
+                .bcg-blanc{
+                        background-color: var(--blanc);
+                }
+
+        /* couleur de bordure  */
+                .brd-rouge{
+                        border: 5px solid var(--rouge);
+                }
+                .brd-jaune{
+                        border: 5px solid var(--jaune);
+                }
+
+                .brd-bleu{
+                         border: 5px solid var(--bleu);
+                }
+                .brd-noir{
+                        border: 5px solid var(--noir);
+                }
+
+                .brd-blanc{
+                        border: 5px solid var(--blanc);
+                }
+
+/* link */
+        .header-link{
+                justify-content: space-around;
+        }
+
+        a{
+                color: var(--blanc);
+                text-decoration: none;
+        }
+
+        a:hover{
+                color: var(--noir);
+        }
+
+
+
+/* width */
+        .width-80{
+                width: 80%;
+                margin: auto;
+        }
+
+        .width-90{
+                width: 90%;
+        }
+
+/* select */
+        select{
+                border: none;
+                width: 150%;
+                padding: .5em 1.5em;
+                color: var(--blanc);
+        }
+
+/* bordure des elements */
+        .bord-raduis, select{
+                border-radius: 1.5em;
+        }
+
+        .border-none{
+                border: none;
+        }
+
+        .brd-raduis-50{
+                border-radius: 50%;
+        }
+
+
+/* display */
+.mobile{
+        display: none;
+}
+
+.space-around{
+        justify-content: space-around;
+}
+
+.bcg-image-header{
+        background-image: url(../Illustration/img1.png);
+        background-size: cover;
+        
+}
+
+.text-justify{
+        text-align: justify;
+}
+
+.bcg-bleu-opacity50{
+        background-color: #114b928a;
+}

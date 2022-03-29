@@ -1,0 +1,45 @@
+.mobile-footer{
+        display: none;
+}
+
+.mobile{
+        display: none;
+}
+
+.mobile-1200{
+        display: none;
+}
+
+.desktop-1200{
+        display: none;
+}
+
+/* responsive avec taille ecran */
+        /* taille ecran 1-->768px */
+                @media screen and (max-width:768px) {
+                        .mobile{
+                                display: block;
+                        }
+                        .desktop{
+                                display: none !important;
+                        }
+                }
+
+        /* taille ecran 768px -->1200px */
+                @media  screen and (max-width:1200px) {
+                        /* style footer */
+                        .desktop-footer{
+                                display: none;
+                        }
+                        .mobile-footer{
+                                display: block;
+                        }
+                        .desktop-1200{
+                                display: none;
+                        }
+                        .mobile-1200{
+                                display: block;
+                        }
+                }
+
+        
