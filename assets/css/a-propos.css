@@ -1,0 +1,14 @@
+.bgc-image-aprorpos1{
+        background-image: url(../Illustration/img5.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 0%;
+}
+
+.transform-180{
+        transform: rotateY(180deg);
+}
+
+.formulaire input{
+        display: block;
+}

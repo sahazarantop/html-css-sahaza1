@@ -55,21 +55,21 @@
 
         /* couleur de bordure  */
                 .brd-rouge{
-                        border: 5px solid var(--rouge);
+                        border: 1px solid var(--rouge);
                 }
                 .brd-jaune{
-                        border: 5px solid var(--jaune);
+                        border: 1px solid var(--jaune);
                 }
 
                 .brd-bleu{
-                         border: 5px solid var(--bleu);
+                         border: 1px solid var(--bleu);
                 }
                 .brd-noir{
-                        border: 5px solid var(--noir);
+                        border: 1px solid var(--noir);
                 }
 
                 .brd-blanc{
-                        border: 5px solid var(--blanc);
+                        border: 1px solid var(--blanc);
                 }
 
 /* link */
