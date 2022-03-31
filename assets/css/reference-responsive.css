@@ -11,7 +11,7 @@
 }
 
 .desktop-1200{
-        display: none;
+        display: block;
 }
 
 /* responsive avec taille ecran */

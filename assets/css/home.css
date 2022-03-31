@@ -6,11 +6,14 @@
 
 @media screen and (max-width:768px) {
         .bgc-image-home2{
-                background-image: url(../Illustration/img1.png);
-                background-size: cover;
+                background-image: url(../Illustration/img5.png);
+                background-size: contain;
+                background-repeat: no-repeat;
         }
         .bgc-image-home3{
-                background-image: url(../Illustration/img1.png);
-                background-size: cover;
+                background-image: url(../Illustration/img6.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: 130% ;
         }
 }

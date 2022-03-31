@@ -7,6 +7,16 @@
         --noir : #000000;
         --blanc : #ffffff;
 }
+
+/* font-family */
+@font-face {
+        font-family: spiderman;
+        src: url(../font-family/Far-From\ Homecoming\ Updated.otf);
+}
+
+.font-spider{
+        font-family: spiderman;
+}
 /* mise en page de tous les elements */
         *{
                 margin: 0;
@@ -141,4 +151,8 @@
 
 .bcg-bleu-opacity50{
         background-color: #114b928a;
+}
+
+.font-title{
+        font-size: 80px;
 }

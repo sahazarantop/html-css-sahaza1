@@ -1,17 +1,43 @@
 .bgc-image-heros1{
-        background-image: url(../Illustration/img1.png);
+        background-image: url(../Illustration/img19.png);
         background-size: cover;
-        background-position: 100% 15%;
+        background-position: 90% 15%;
 }
 
 .bgc-image-heros2{
-        background-image: url(../Illustration/img1.png);
+        background-image: url(../Illustration/img20.png);
         background-size: cover;
         background-position: 100% 15%;
 }
 
 .bgc-image-heros3{
-        background-image: url(../Illustration/img1.png);
+        background-image: url(../Illustration/img33.png);
         background-size: cover;
         background-position: 100% 15%;
+}
+
+.bcg-exepmle1{
+        background-image: url(../Illustration/img32.png);
+        background-size: cover;
+        background-position: 100% 10%;
+}
+
+@media screen and (max-width:1100px) {
+        .desktop-1100{
+                display: none;
+        }
+        
+}
+
+.modif-image1{
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        transform: scale(1.1);
+}
+
+@media screen and (max-width:996px) {
+        .modif-image1{
+                display: none;
+        }
 }
